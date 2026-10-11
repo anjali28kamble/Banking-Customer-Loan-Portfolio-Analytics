@@ -1,0 +1,66 @@
+
+# ==============================
+# Python temporary files
+# ==============================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+
+# ==============================
+# Python virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Secrets and credentials
+# ==============================
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+
+# ==============================
+# Jupyter and editor settings
+# ==============================
+.ipython/
+.vscode/
+.idea/
+
+# ==============================
+# Windows temporary files
+# ==============================
+Thumbs.db
+Desktop.ini
+~$*
+
+# ==============================
+# Mac temporary files
+# ==============================
+.DS_Store
+
+# ==============================
+# Temporary and backup files
+# ==============================
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ==============================
+# Local database files
+# ==============================
+*.sqlite
+*.sqlite3
+*.db
+
+# ==============================
+# Temporary Python model files
+# ==============================
+*.pkl
+*.joblib
